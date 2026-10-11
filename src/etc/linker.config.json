@@ -1,0 +1,13 @@
+{
+	"provideLibs": [	
+		    "libdummy_ext_okio-x86_64-v2.so",
+		    "libdummy_ext_okio.so",
+		    "libdummy_shared_okio-lib-x86_64-v2.so",
+		    "libdummy_shared_okio-lib.so",
+		    "libdummy_shared_okio-x86_64-v2.so",
+		    "libdummy_shared_okio.so",
+		    "libdummy_shared_okio_lib-x86_64-v2.so",
+		    "libdummy_shared_okio_lib.so"
+	],
+	"visible": true
+}

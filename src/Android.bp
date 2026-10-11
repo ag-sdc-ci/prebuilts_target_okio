@@ -1,0 +1,16 @@
+// Extractive JVM/Maven apex: jars staged under share/ dirs
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+java_import {
+    name: "okio",
+    jars: ["share/okio/okio__okio-jvm-3.6.0.jar"],
+    host_supported: true,
+}
+
+java_import {
+    name: "okio_lib",
+    jars: ["share/okio-lib/okio-lib__okio-jvm-3.6.0.jar"],
+    host_supported: true,
+}
