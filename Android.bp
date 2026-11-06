@@ -12,6 +12,12 @@ java_import {
     ],
     host_supported: true,
     prefer: true,
+    sdk_version: "core_current",
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
 }
 
 java_import {
@@ -21,4 +27,10 @@ java_import {
     ],
     host_supported: true,
     prefer: true,
+    sdk_version: "core_current",
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
 }
